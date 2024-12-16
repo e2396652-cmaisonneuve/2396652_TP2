@@ -1,0 +1,60 @@
+/*=====================
+REMISE À ZÉRO DES STYLE
+=====================*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800);
+
+/*=====================
+COULEURS
+=====================*/
+:root {
+  --dark-blue: #003e7e;
+  --light-blue: #99d7db;
+  --maisonneuve-blue: #0079c2;
+}
+
+/*=====================
+NAVIGATION
+=====================*/
+
+nav {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--dark-blue);
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+body {
+  background: var(--maisonneuve-blue);
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+}
+
+main {
+  margin: 20px;
+}
